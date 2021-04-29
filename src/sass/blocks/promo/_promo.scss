@@ -1,14 +1,13 @@
 .promo {
     min-height: 100vh;
-    position: relative;
     background: url(../img/bg1.jpg) no-repeat 50%/cover;
     padding-top: 181px;
     &__header {
         font-size: 72px;
-        line-height: 1.2;
         font-weight: 700;
         text-transform: uppercase;
         color: $main-color;
         text-align: center;
+        font-stretch: condensed;
     }
 }
