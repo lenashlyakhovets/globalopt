@@ -5,7 +5,7 @@
 @import 'base/mixins';
 
 * {
-    font-family: 'Robotob', 'Robotob Condensed', sans-serif;
+    font-family: 'Roboto', 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -14,11 +14,31 @@
     width: 1140px;
     margin: 0 auto;
 }
-
 h1, h2 {
     margin-bottom: 0;
+}
+.divider {
+    position: relative;
+    margin: 0 auto; 
+    margin-top: 38px;
+    background-color: #fff;
+    width: 809px;
+    height: 1px;
+    &:before {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 10px solid #55575f
+    }
 }
 
 @import 'blocks/promo/promo';
 @import 'blocks/header/header';
 @import 'blocks/button/button';
+@import 'blocks/menu/menu';
