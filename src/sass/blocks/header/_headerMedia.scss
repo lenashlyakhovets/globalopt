@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    .header {
+        &__phone {
+            font-size: 17px;
+        }
+    }        
+}
+
+@media (max-width: 992px) {
+    .header {
+        &__contacts-wrapper {
+            display: none;
+        }
+        &__phone_visible {
+            display: block;
+        }
+    }        
+}
+
+@media (max-width: 768px) {
+      
+}
+
+@media (max-width: 576px) {
+    
+}

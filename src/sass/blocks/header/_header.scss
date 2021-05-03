@@ -36,4 +36,7 @@
             transition: .5s all;
         }
     }
+    &__phone_visible {
+        display: none;
+    }
 }

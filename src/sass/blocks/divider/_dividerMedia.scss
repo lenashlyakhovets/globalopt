@@ -1,23 +1,15 @@
 @media (max-width: 1200px) {
     .container {
         max-width: 960px;
-    }
-    .promo {
-        &__header {
-            font-size: 65px;
-        }
-        &__subheader {
-            font-size: 36px;
-        }
-        &__item {
-            width: 230px;
-        }
-    }    
+    }   
 }
 
 @media (max-width: 992px) {
     .container {
         max-width: 720px;
+    }
+    .divider {
+        width: 100%;
     }    
 }
 

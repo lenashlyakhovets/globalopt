@@ -9,7 +9,7 @@
     &__item {
         border-right: 1px dotted rgba(255, 255, 255, 0.4);            
         &:last-child {
-            padding-right: 0px;
+            border-right: none;
         }
     }
     &__link {

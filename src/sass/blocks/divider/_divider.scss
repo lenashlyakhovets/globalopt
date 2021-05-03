@@ -1,0 +1,20 @@
+.divider {
+    position: relative;
+    margin: 0 auto; 
+    margin-top: 47px;
+    background-color: #fff;
+    width: 809px;
+    height: 1px;
+    &:before {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 10px solid #696c72
+    }
+}

@@ -17,28 +17,15 @@
 h1, h2 {
     margin-bottom: 0;
 }
-.divider {
-    position: relative;
-    margin: 0 auto; 
-    margin-top: 38px;
-    background-color: #fff;
-    width: 809px;
-    height: 1px;
-    &:before {
-        content: '';
-        position: absolute;
-        background-color: #fff;
-        width: 30px;
-        height: 30px;
-        border-radius: 100%;
-        top: -15px;
-        left: 50%;
-        transform: translateX(-50%);
-        border: 10px solid #55575f
-    }
-}
 
 @import 'blocks/promo/promo';
 @import 'blocks/header/header';
 @import 'blocks/button/button';
 @import 'blocks/menu/menu';
+@import 'blocks/hamburger/hamburger';
+@import 'blocks/divider/divider';
+@import 'blocks/promo/promoMedia';
+@import 'blocks/header/headerMedia';
+@import 'blocks/menu/menuMedia';
+@import 'blocks/hamburger/hamburgerMedia';
+@import 'blocks/divider/dividerMedia';
