@@ -18,7 +18,7 @@
         display: block;
         position: absolute;
         right: 10px;
-        top: 50%;
+        top: 0px;
         transform: translateX(-50%);
         width: 26px;
         height: 12px;
@@ -27,7 +27,7 @@
             height: 2px;
             width: 100%;
             background-color: #fff;
-            margin-bottom: 2px;
+            margin-bottom: 3px;
             transition: 0.5s all;
         }    
         &_active {
