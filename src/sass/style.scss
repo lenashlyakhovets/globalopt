@@ -14,7 +14,7 @@
     width: 1140px;
     margin: 0 auto;
 }
-h1, h2 {
+h1, h2, h3 {
     margin-bottom: 0;
 }
 
@@ -24,9 +24,20 @@ h1, h2 {
 @import 'blocks/menu/menu';
 @import 'blocks/hamburger/hamburger';
 @import 'blocks/divider/divider';
+@import 'blocks/advantage/advantage';
+@import 'blocks/work/work';
+@import 'blocks/agent/agent';
+@import 'blocks/manager/manager';
+@import 'blocks/diagram/diagram';
+
 @import 'blocks/promo/promoMedia';
 @import 'blocks/header/headerMedia';
 @import 'blocks/button/buttonMedia';
 @import 'blocks/menu/menuMedia';
 @import 'blocks/hamburger/hamburgerMedia';
 @import 'blocks/divider/dividerMedia';
+@import 'blocks/advantage/advantageMedia';
+@import 'blocks/work/workMedia';
+@import 'blocks/agent/agentMedia';
+@import 'blocks/manager/managerMedia';
+@import 'blocks/diagram/diagramMedia';

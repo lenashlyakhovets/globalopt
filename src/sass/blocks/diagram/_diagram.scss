@@ -1,0 +1,46 @@
+.diagram {
+    min-height: 454px;
+    padding-top: 51px;
+    padding-bottom: 46px;
+    background-color: #f3f3f3;
+    &__subheader {
+        text-align: center;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
+    }
+    &__wrapper {        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 15px;
+        margin-top: 26px;
+        width: 255px;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        min-height: 58px;
+        object-fit: scale-down;
+    }
+    &__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: $main-color;
+        text-align: center;
+        margin-top: 12px;
+    }
+    &__text {
+        margin-top: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}

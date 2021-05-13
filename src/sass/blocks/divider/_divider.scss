@@ -1,20 +1,27 @@
 .divider {
     position: relative;
-    margin: 0 auto; 
-    margin-top: 47px;
     background-color: #fff;
-    width: 809px;
-    height: 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 47px;    
     &:before {
         content: '';
         position: absolute;
         background-color: #fff;
-        width: 30px;
-        height: 30px;
-        border-radius: 100%;
-        top: -15px;
-        left: 50%;
-        transform: translateX(-50%);
-        border: 10px solid #696c72
+        height: 1px;
+        width: 390px;
+        bottom: 5px;
+        left: 20px;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        height: 1px;
+        width: 390px;
+        bottom: 5px;
+        left: -400px;
     }
 }

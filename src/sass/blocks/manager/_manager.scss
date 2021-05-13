@@ -1,0 +1,36 @@
+.manager {
+    min-height: 342px;
+    background: url(../img/bg3.jpg) no-repeat 50%/cover;
+    padding-top: 58px;
+    padding-bottom: 75px;
+    &__icon {
+        position: relative;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        border: 1px solid #ffffff;
+        margin: 0 auto;
+        img {
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            transform: translate(-50%);
+        }
+    }
+    &__subheader {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: 20px;
+        text-align: center;
+    }
+    &__text {
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-top: 22px;
+        text-align: center;
+    }
+}

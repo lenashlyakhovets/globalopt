@@ -26,3 +26,9 @@ overlay.addEventListener('click', (e) => {
         hamburger.classList.remove('active');
     }
 });
+
+menuLink.forEach(item => {
+    item.addEventListener('click', () => {
+        menu.classList.remove('active');
+    })
+});
